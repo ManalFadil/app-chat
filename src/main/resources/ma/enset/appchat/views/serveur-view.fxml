@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.enset.appchat.controllers.ServeurController">
+   <children>
+      <ListView fx:id="listeChatServer" layoutX="13.0" layoutY="70.0" prefHeight="200.0" prefWidth="574.0" />
+      <Button fx:id="startServer" layoutX="157.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="Démarrer le Serveur" onAction="#startServer" />
+      <TextArea fx:id="messageServer" layoutX="14.0" layoutY="281.0" prefHeight="79.0" prefWidth="317.0" />
+      <Button fx:id="buttonEnvoyer" layoutX="387.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Envoyer" onAction="#envoyerMessage" />
+   </children>
+</Pane>
